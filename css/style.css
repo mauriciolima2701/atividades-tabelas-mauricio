@@ -1,0 +1,126 @@
+header{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 600px;
+    margin: 50px auto;
+}
+
+.table tr td {
+    border: 1px solid black;
+    padding: 10px 0;  
+}
+
+.linha-centro{
+    text-align: center;
+}
+
+.linha-direita{
+    text-align: right;
+}
+
+hr{
+    width: 80%; 
+}
+
+footer{
+    text-align: center;
+}
+
+/*----- CSS Exercicio 2 (Layout Site)------- */
+
+#tamanho-tela{
+    margin: 0;
+    padding: 0;
+}
+
+.layout-site{
+    width: 100%;
+    height: 100%;
+}
+
+/* .layout-site tr td{
+    border: 1px solid red;
+} */
+
+.menu{
+    width: 15%;
+    height: 80vh;
+    background-color: rgb(70, 16, 188);
+    color: white;
+}
+
+.topo{
+    height: 12vh;
+    background-color: rgb(148, 103, 244);
+    color: white;
+}
+
+.rodape{
+    height: 6vh;
+    background-color: rgb(148, 103, 244);
+    color: white;
+}
+
+.conteudo{
+    background-color: rgb(139, 135, 148);
+    color: white;
+}
+
+/*--------- CSS Exercicio 3 (Fazer 3 Tabelas) --------*/
+
+.tabela1{
+    width: 20vw;
+    height: 40vh;
+    border-collapse: collapse;
+}
+
+.tabela1-alinhamento{
+    margin: 150px 20px;
+    display: inline-block;
+}
+
+.tabela1 tr td{
+    border: 10px inset;
+}
+
+
+
+.tabela2-alinhamento{
+    display: inline-block;
+    margin: 150px 40px;
+    /* margin-left: 100px; */
+}
+
+.tabela2{
+    width: 25vw;
+    height: 40vh;
+    border-collapse: collapse;
+}
+
+.tabela2 tr td{
+    border: 10px inset;
+}
+
+
+
+.tabela3-alinhamento{
+    display: inline-block;
+    /* margin: 150px; */
+    /* margin-left: 10px; */
+}
+
+.tabela3{
+    width: 35vw;
+    height: 70vh;
+    border-collapse: collapse;
+}
+
+.tabela3 tr td{
+    border: 10px inset;
+}
+
